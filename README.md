@@ -1,7 +1,7 @@
-# 项目简介
+﻿# 项目简介
 
-> 项目名：starry-sky-market
-> 中文名：星空商城
+> 项目名：vue-market
+> 中文名：商城
 
 > A Vue.js project
 
