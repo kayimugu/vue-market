@@ -2,18 +2,18 @@
   <header id="header">
     <div id="content">
       <span>
-        <div class="inline-block pointer" @click="toPage('/PC/index')">
+        <div class="inline-block pointer" @click="toPage('/index')">
           <i class="el-icon-s-home" style="color: #79bbff"></i>
           <span style="font-size: 14px">首页</span>
         </div>
       </span>
       <span class="rightLink">
         <template v-if="this.$store.state.userInfo === null">
-          <el-link @click="toPage('/PC/login?isLogin=true')" :underline="false"
+          <el-link @click="toPage('/login?isLogin=true')" :underline="false"
             >您好，请先登录
           </el-link>
           <el-link
-            @click="toPage('/PC/login?isLogin=false')"
+            @click="toPage('/login?isLogin=false')"
             type="primary"
             :underline="false"
           >

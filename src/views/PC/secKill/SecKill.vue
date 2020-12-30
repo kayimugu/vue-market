@@ -85,7 +85,7 @@ export default {
     },
     toDetail(element) {
       console.log(element);
-      this.$router.push('/PC/detail/' + element.sku);
+      this.$router.push('/detail/' + element.sku);
     },
   },
   computed: {

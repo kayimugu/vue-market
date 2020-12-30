@@ -53,7 +53,7 @@ export default {
       this.$store.commit('increaseCount');
     },
     toPage(item) {
-      this.$router.push('/PC/detail/' + item.sku);
+      this.$router.push('/detail/' + item.sku);
     },
     scrollTo() {
       // 滚动视口高度(也就是当前元素的真实高度)

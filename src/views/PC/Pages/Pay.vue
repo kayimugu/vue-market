@@ -220,7 +220,7 @@ export default {
             type: 'success',
             message: '支付成功，感谢您对本商场的支持！',
           });
-          this.$router.push('/PC/index');
+          this.$router.push('/index');
         })
         .catch(() => {
           this.$message({

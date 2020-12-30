@@ -3,7 +3,7 @@
     <div class="content">
       <el-row type="flex" align="middle" class="row">
         <el-col :span="4">
-          <router-link to="/PC/">
+          <router-link to="/">
             <div>
               <img src="/static/logo.png" alt="" />
             </div>
@@ -43,7 +43,7 @@
             </el-col>
             <!-- 购物车 -->
             <el-col :span="4" :push="2" style="margin-top: 4px">
-              <router-link to="/PC/cart">
+              <router-link to="/cart">
                 <el-badge :value="getCartsLength" :max="99" class="item">
                   <el-button icon="el-icon-shopping-cart-full" size="medium">
                     我的购物车</el-button

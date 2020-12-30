@@ -122,7 +122,7 @@ export default {
         console.log(arr);
         this.$router.push({
           name: 'pay',
-          path: '/PC/pay',
+          path: '/pay',
           params: {
             data: arr,
           },

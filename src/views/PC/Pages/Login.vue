@@ -3,7 +3,7 @@
     <header-part />
     <div class="login">
       <div class="top">
-        <router-link to="/PC/index">
+        <router-link to="/index">
           <img src="/static/images/login/logo2.png" alt="图片" />
         </router-link>
         <h2>欢迎登录</h2>
@@ -58,7 +58,7 @@
               <div class="footer">
                 
                 <div class="right">
-                  <el-button plain @click="toPage('/PC/login?isLogin=false')"
+                  <el-button plain @click="toPage('/login?isLogin=false')"
                     >立即注册</el-button
                   >
                 </div>
@@ -102,7 +102,7 @@
                   <el-button type="primary" @click="submitReg('regForm')"
                     >注册</el-button
                   >
-                  <el-button @click="toPage('/PC/login?isLogin=true')">
+                  <el-button @click="toPage('/login?isLogin=true')">
                     登录</el-button
                   >
                 </el-form-item>

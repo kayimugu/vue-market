@@ -274,7 +274,7 @@ export default {
           message: '尊敬的用户，请您先完成登录!',
           type: 'info',
         });
-        this.$router.push('/PC/login?isLogin=true');
+        this.$router.push('/login?isLogin=true');
       } else {
         // 加载动画
         this.isShow = true;
